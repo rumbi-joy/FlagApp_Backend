@@ -1,0 +1,38 @@
+{
+    "sqltools.connections": [
+        {
+            "connectionTimeout": 15,
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true,
+                "trustServerCertificate": false
+            },
+            "previewLimit": 50,
+            "server": "10.180.5.15",
+            "port": 51433,
+            "driver": "MSSQL",
+            "username": "euser",
+            "name": "10.180.5.15",
+            "group": "10.180.5.15",
+            "password": "Password123"
+        },
+        {
+            "connectionTimeout": 15,
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true,
+                "trustServerCertificate": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "Localhost",
+            "group": "Localhost",
+            "username": "sa",
+            "password": "Root123*"
+        }
+    ]
+}
